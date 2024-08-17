@@ -1,0 +1,190 @@
+.wrapper {
+    width: 1440px;
+    margin: auto;
+    
+}
+.header {
+    width: 100%;
+    height: 120px;
+    justify-content: space-around;
+    display: flex;
+    flex: none;
+    margin:0 auto;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    background: linear-gradient(140.89deg, rgb(83, 38, 157) 0%, rgb(109, 49, 208) 100.407%);
+}
+
+.logotime {
+    width: 120px;
+    height: 80px;
+    margin: 20px;
+   
+}
+
+.headerbtn {
+    width: 180px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 9px 24px 9px 24px;
+    border-radius: 30px;
+    /* h4 */
+    color: rgb(109, 49, 208);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-shadow: 0px 14px 23px 0p x rgba(28, 37, 44, 0.08);
+    background: rgb(255, 219, 128);
+    margin-top: 36px;
+}
+
+.headertitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Avenir Next;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    /* position: absolute;
+    top: 36px; */
+}
+
+
+.footertop{
+width: 1438px;
+height: 316px;
+display: flex;
+gap: 60px;
+/* h2 */
+color: rgb(67, 67, 100);
+font-family: Avenir Next;
+font-size: 36px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: center;
+text-transform: uppercase;
+flex-direction: column;
+align-items: center;
+/* padding: 80px 129px 80px 129px; */
+
+}
+.footertoplogo img{
+    width: 180px;
+    height: 66px;
+    object-fit: contain;
+}
+.footertoplogo{
+    width: 1180px;
+height: 66px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+}
+.footerbutton{
+    background: linear-gradient(180.00deg, rgb(109, 49, 208),rgb(130, 140, 222) 100%);
+    width: 1440px;
+height: 830px;
+padding: 80px 0px 0px 0px;
+}
+.buttonimg{
+    width: 380px;
+height: 500px;
+gap: 20;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+/* position: relative; */
+box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+background: rgb(255, 255, 255);  
+margin-top: 60px;
+position: relative;
+
+
+}
+.buttonimg img{
+    width: 380px;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 20px;
+
+   
+}
+.buttonimage{
+    width: 1180px;
+height: 500px;
+display: flex;
+justify-content: space-around;
+margin: auto;
+
+
+}
+.buttonimg p{
+    /* h4 */
+color: rgb(109, 49, 208);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin: 20px 30px 0px 30px;
+}
+.buttonimg h5{
+    /* h5 */
+color: rgb(67, 67, 100);
+font-family: Avenir Next;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+margin:  20px 30px 40px 30px;
+text-align: left;
+}
+.buttonpp p{
+    color: rgb(255, 255, 255);
+font-family: Avenir Next;
+font-size: 36px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: center;
+text-transform: uppercase;
+}
+.buttonimg button{
+    position: absolute;
+    top: 150px;
+    border-radius: 20px;
+
+box-shadow: 0px 2.71px 5.43px 0px rgba(28, 37, 44, 0.08);
+/* pam_color_linear1 */
+background: linear-gradient(140.89deg, rgb(83, 38, 157) 0%,rgb(109, 49, 208) 102.925%);
+    right: 20px;
+    gap: 2.213479995727539;
+padding: 7.75px 15.86px 7.75px 15.86px;
+color: white;
+border: none;
+}
+.footerfooter{
+    width: 1440px;
+    height: 100px;
+    /* pam_color2 */
+background: rgb(130, 140, 222);
+}
