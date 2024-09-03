@@ -1,55 +1,45 @@
 import React from 'react'
 import '../Pages/Home.css'
-import Picture from '../assets/images/picture_home1.png'
-import slider1 from '../assets/svg/offer_cities_slider1_image.svg'
-import slider2 from '../assets/svg/offer_cities_slider2_image.svg'
-import slider3 from '../assets/svg/offer_cities_slider3_image.svg'
-import slider4 from '../assets/svg/offer_cities_slider4_image.svg'
-
+import Carousel from 'react-bootstrap/Carousel';
+import Page2 from '../components/homepage/Page2'
+import Page1 from '../components/homepage/Page1'
+import Page3 from '../components/homepage/Page3'
+import Page4 from '../components/homepage/Page4'
+import Page5 from '../components/homepage/Page5'
+import Page from '../components/homepage/Page'
+import '../components/Footer/Logotip'
+import '../components/component/Component9'
+import Component9 from '../components/component/Component9';
+import Logotip from '../components/Footer/Logotip';
 function Home() {
   return (
     <>
       <div className="wrapper">
-        <section className='offer1'>
-          <img className="picture-home1" src={Picture} alt="" />
-          <div className="offer1-text">
-            <div className="offer1-text-service">
-              <ul>
-                <li>investments</li>
-                <li>business relocation</li>
-                <li>family relocation</li>
-              </ul>
-            </div>
-            <h1>Relocating to Cyprus</h1>
-            <span>Seamless – Exceptional – Experience </span>
-            <p>The captivating Mediterranean island of Cyprus has become a business haven with a flourishing expat community. The strategic location that grants networking opportunities and the stability of being in the EU offers entrepreneurs the abilities they need 
-            to thrive.</p>
-            <div className="offer1-text-btn">
-              <button>Find Out More</button>
-            </div>
-          </div>
-          <div className="offer1-cities">
-            <h5>Most popular cities</h5>
-            <div className="offer1-cities-sliders">
-              <div className="offer1-cities-slider">
-                <img src={slider1} alt="" />
-                <h4>Nicosia</h4>
-              </div>
-              <div className="offer1-cities-slider">
-                <img src={slider2} alt="" />
-                <h4>Limassol</h4>
-              </div>
-              <div className="offer1-cities-slider">
-                <img src={slider3} alt="" />
-                <h4>Paphos</h4>
-              </div>
-              <div className="offer1-cities-slider">
-                <img src={slider4} alt="" />
-                <h4>Larnaka</h4>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div> <Carousel>
+          <Carousel.Item>
+            <Page />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Page1 />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Page2 />
+
+          </Carousel.Item>
+          <Carousel.Item>
+            <Page3 />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Page4 />
+
+          </Carousel.Item>
+          <Carousel.Item>
+            <Page5 />
+
+          </Carousel.Item>
+        </Carousel></div>
+        <Logotip/> 
+        <Component9/>
       </div>
     </>
   )
