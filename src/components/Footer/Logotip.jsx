@@ -4,7 +4,7 @@ function Logotip() {
   return (
     <div>
          <div className='footertop'>
-          <p>Our Partners</p>
+          <p>Our Parrtners</p>
           <div className='footertoplogo' >
 
             <img src="https://s3-alpha-sig.figma.com/img/08f5/2d85/c3d14f7b77d01e096d827c8c386ca1e5?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OuOH0FrrjBZzWLY-3mmYmUbJ8zeQajAyuCn~-sb8JbeA6P7L5g9Pqo9AfMF4H6-krCwg-2S2Z~U96ySeNKZRPsb-mPIjl7mLDxPHiX5cFKCT7p14jdl882jbgqbnHjkpABuGIFVtWszqZez387Cbc6GxRbg66iB~QI5xu4yVearRSgU3VtLR4qkRejPzSvTorLnzoUvzWOWhjwoLhGiDOxSvyIxnLbqZBrWJEAMxn4X2pdjoXq2h4PUzfJZ9P6hgOozWGPab~E~qKLVx9POkgtIea3sBHhkVOjwbnE4dhiPwAIn~G5DYUw2JvXJ~S3PthtLWbQHpVRSg9fOeNtUBAA__" alt="" />
